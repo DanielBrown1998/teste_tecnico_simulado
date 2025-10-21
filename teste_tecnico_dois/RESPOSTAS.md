@@ -1,0 +1,4 @@
+1. Um Future chamara a instancia assincrona uma unica vez ao construir a tela, ja a stream podera atualizar a tela varias vezes.
+2. ValueKey serve para identificar um unico elemento, a globalKey todos os elementos daquele escopo.
+3. Porque o Listview.builder carrega o item somente quando a lista e movida, assim ele nao carrega tudo no inicio, desse modo o app torna-se performatico
+4. o pubspec.yaml e onde ficam todos as dependencias do projeto, dependencies sao as dependencias que sao necessarias para usar o app em producao, ja a dev_dependencias sao os pacotes usados apenas para desenvolver o app
